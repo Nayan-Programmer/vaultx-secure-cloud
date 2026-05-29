@@ -6,11 +6,11 @@
   "scripts": {
   "dev": "vite dev",
   "build": "vite build && vite build --ssr",
-  "start": "node dist/server/server.js"
+  "start": "node dist/server/server.js",
   "preview": "vite preview",
   "lint": "eslint .",
   "format": "prettier --write ."
-  },
+  }
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@lovable.dev/cloud-auth-js": "^1.1.2",
